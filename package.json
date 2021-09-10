@@ -1,0 +1,19 @@
+{
+    "name": "@torah-anytime/standard-version-expo-channels",
+    "version": "0.0.1",
+    "description": "Set Expo Publish channel name to version",
+    "scripts": {
+        "build": "tsc"
+    },
+    "files": [
+        "build"
+    ],
+    "dependencies": {
+        "@types/node": "^16.9.1",
+        "plist": "^3.0.4"
+    },
+    "devDependencies": {
+        "@types/plist": "^3.0.2",
+        "typescript": "^4.4.2"
+    }
+}
