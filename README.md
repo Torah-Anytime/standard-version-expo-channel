@@ -8,7 +8,11 @@ When publishing using an Expo bare workflow, Expo does not make sure that update
 
 Expo recommends using [Release Channels](https://docs.expo.dev/bare/updating-your-app/#release-channels) to solve this. Whenever releasing a new binary, set the channel to match the version number. Any updates should be pushed to this channel.
 
-To automatically update the iOS and Android Expo release channel to match the app version add:
+To automatically update the iOS and Android Expo release channel to match the app version install this package and add the bump files:
+
+```
+$ npm install @torah-anytime/standard-version-expo-channel
+```
 
 ```
 // .versionrc.js
