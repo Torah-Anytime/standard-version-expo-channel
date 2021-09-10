@@ -21,11 +21,11 @@ module.exports = {
     // ...
     {
       filename: "ios/<YourAppName>/Supporting/Expo.plist",
-      updater: require("@torah-anytime/standard-version-expo-channel/build/ios/native/release-channel"),
+      updater: require("@torah-anytime/standard-version-expo-channel/dist/ios/native/release-channel"),
     },
     {
       filename: "android/app/src/main/AndroidManifest.xml",
-      updater: require("@torah-anytime/standard-version-expo-channel/build/android/native/release-channel"),
+      updater: require("@torah-anytime/standard-version-expo-channel/dist/android/native/release-channel"),
     },
   ],
 };
