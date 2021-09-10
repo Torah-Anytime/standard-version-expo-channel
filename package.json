@@ -1,5 +1,5 @@
 {
-    "name": "@torah-anytime/standard-version-expo-channels",
+    "name": "@torah-anytime/standard-version-expo-channel",
     "version": "0.0.1",
     "description": "Set Expo Publish channel name to version",
     "scripts": {
