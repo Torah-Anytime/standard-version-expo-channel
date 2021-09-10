@@ -7,7 +7,7 @@
         "release": "standard-version"
     },
     "files": [
-        "build"
+        "build/*"
     ],
     "dependencies": {
         "@types/node": "^16.9.1",
