@@ -10,30 +10,30 @@ Expo recommends using [Release Channels](https://docs.expo.dev/bare/updating-you
 
 To automatically update the iOS and Android Expo release channel to match the app version install this package and add the bump files:
 
-```
+```bash
 $ npm install @torah-anytime/standard-version-expo-channel
 ```
 
-```
+```js
 // .versionrc.js
 module.exports = {
-    bumpFiles: [
-        ...
-        {
-            filename: 'ios/<YourAppName>/Supporting/Expo.plist',
-            updater: require("@torah-anytime/standard-version-expo-channel/build/ios/native/release-channel")
-        },
-        {
-            filename: "android/app/src/main/AndroidManifest.xml",
-            updater: require("@torah-anytime/standard-version-expo-channel/build/android/native/release-channel"),
-        },
-    ]
-}
+  bumpFiles: [
+    // ...
+    {
+      filename: "ios/<YourAppName>/Supporting/Expo.plist",
+      updater: require("@torah-anytime/standard-version-expo-channel/build/ios/native/release-channel"),
+    },
+    {
+      filename: "android/app/src/main/AndroidManifest.xml",
+      updater: require("@torah-anytime/standard-version-expo-channel/build/android/native/release-channel"),
+    },
+  ],
+};
 ```
 
 To test if your configuration works as expected, you can run standard version in dry mode. This shows you what will happen, without actually applying the versions and tags.
 
-```
+```bash
 $ npx standard-version --dry-run
 ```
 
