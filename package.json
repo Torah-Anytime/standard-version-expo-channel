@@ -4,7 +4,10 @@
     "description": "Set Expo Publish channel name to version",
     "scripts": {
         "build": "tsc",
-        "release": "standard-version"
+        "release": "standard-version",
+        "release:major": "mpm run release -- -r major",
+        "release:minor": "npm run release -- -r minor",
+        "release:patch": "npm run release -- -r patch"
     },
     "files": [
         "dist/*"
