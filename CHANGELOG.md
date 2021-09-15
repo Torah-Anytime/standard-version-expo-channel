@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/Torah-Anytime/standard-version-expo-channel/compare/v0.1.3...v0.1.4) (2021-09-15)
+
+
+### Features
+
+* added Expo Runtime Version bumpers ([9575cc8](https://github.com/Torah-Anytime/standard-version-expo-channel/commit/9575cc8e5ac411162251a2121457b0f90a0a1e72))
+
 ### [0.1.3](https://github.com/Torah-Anytime/standard-version-expo-channel/compare/v0.1.2...v0.1.3) (2021-09-13)
 
 ### [0.1.2](https://github.com/Torah-Anytime/standard-version-expo-channel/compare/v0.1.1...v0.1.2) (2021-09-13)
