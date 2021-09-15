@@ -3,7 +3,7 @@
 [Standard Version](https://github.com/conventional-changelog/standard-version#standard-version) [custom updaters](https://github.com/conventional-changelog/standard-version#custom-updaters) for Expo
 
 ```bash
-$ npm install @torah-anytime/standard-version-expo-channel
+npm install @torah-anytime/standard-version-expo-channel
 ```
 
 ## Update Expo Runtime Version
@@ -61,7 +61,7 @@ module.exports = {
 To test if your configuration works as expected, you can run standard version in dry mode. This shows you what will happen, without actually applying the versions and tags.
 
 ```bash
-$ npx standard-version --dry-run
+npx standard-version --dry-run
 ```
 
 ### Credit
