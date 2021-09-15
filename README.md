@@ -2,7 +2,7 @@
 
 [Standard Version](https://github.com/conventional-changelog/standard-version#standard-version) [custom updaters](https://github.com/conventional-changelog/standard-version#custom-updaters) for Expo
 
-When publishing bare workflows using Expo Publish, Expo does not make sure that updates are only pushed to devices which have the correct binary. This can cause old app versions which do not have the required native dependencies to receive new javascript bundle updates.
+When publishing bare workflows using Expo Publish, Expo does not make sure that updates are only pushed to devices which have the correct binary. This can cause old app versions, which do not have the required native dependencies, to receive new javascript bundle updates.
 
 The recommended solution is to use [Runtime Versions](https://docs.expo.dev/distribution/runtime-versions/#configuration-for-the-bare-workflow). However, Runtime Versions is not compatible with the Expo classic build system (`expo build`).
 
@@ -15,8 +15,6 @@ npm install @torah-anytime/standard-version-expo-channel
 ```
 
 ## Update Expo Runtime Version
-
-These bumpers keep the runtime version in sync with the app version so that only users on the current app binary will get the bundle updates.
 
 Note from the Expo docs: Custom runtime versions are not supported on the classic build system (`expo build`); these apps will always use the SDK version as the basis for determining runtime compatibility.
 
