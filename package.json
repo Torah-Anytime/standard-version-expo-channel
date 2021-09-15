@@ -1,7 +1,7 @@
 {
-    "name": "@torah-anytime/standard-version-expo-channel",
+    "name": "@torah-anytime/standard-version-expo",
     "version": "0.1.3",
-    "description": "Set Expo Publish channel name to version",
+    "description": "Standard Version Expo bumpers",
     "keywords": [
         "expo",
         "standard",
