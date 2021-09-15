@@ -1,6 +1,6 @@
 {
     "name": "@torah-anytime/standard-version-expo",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Standard Version Expo bumpers",
     "keywords": [
         "expo",
