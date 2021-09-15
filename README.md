@@ -11,7 +11,7 @@ The second option is to use Expo Channels.
 This module contains bumpers which assist in keeping both methods in sync with the app version number.
 
 ```bash
-npm install @torah-anytime/standard-version-expo-channel
+npm install @torah-anytime/standard-version-expo
 ```
 
 ## Update Expo Runtime Version
@@ -27,11 +27,11 @@ module.exports = {
     // ...
     {
       filename: "ios/TorahAnyTime/Supporting/Expo.plist",
-      updater: require("@torah-anytime/standard-version-expo-channel/dist/ios/native/runtime-version"),
+      updater: require("@torah-anytime/standard-version-expo/dist/ios/native/runtime-version"),
     },
     {
       filename: "android/app/src/main/AndroidManifest.xml",
-      updater: require("@torah-anytime/standard-version-expo-channel/dist/android/native/runtime-version"),
+      updater: require("@torah-anytime/standard-version-expo/dist/android/native/runtime-version"),
     },
   ],
 };
@@ -50,11 +50,11 @@ module.exports = {
     // ...
     {
       filename: "ios/<YourAppName>/Supporting/Expo.plist",
-      updater: require("@torah-anytime/standard-version-expo-channel/dist/ios/native/release-channel"),
+      updater: require("@torah-anytime/standard-version-expo/dist/ios/native/release-channel"),
     },
     {
       filename: "android/app/src/main/AndroidManifest.xml",
-      updater: require("@torah-anytime/standard-version-expo-channel/dist/android/native/release-channel"),
+      updater: require("@torah-anytime/standard-version-expo/dist/android/native/release-channel"),
     },
   ],
 };
