@@ -17,7 +17,7 @@ const androidApplicationMetadataRegex = (androidName: string) =>
   new RegExp(
     `(?<=<meta-data android:name="${escapeRegex(
       androidName
-    )}" android:value=")(.*)(?=" \/>)`,
+    )}" android:value=")(.*)(?="\\s*\/>)`,
     "gm"
   );
 
