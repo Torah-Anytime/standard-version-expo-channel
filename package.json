@@ -29,6 +29,8 @@
         "dist/*"
     ],
     "dependencies": {
+        "@expo/config": "^6.0.7",
+        "@expo/json-file": "^8.2.33",
         "@types/node": "^16.9.1",
         "plist": "^3.0.4"
     },
