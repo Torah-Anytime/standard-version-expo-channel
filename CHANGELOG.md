@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/Torah-Anytime/standard-version-expo-channel/compare/v0.1.5...v0.1.6) (2021-11-18)
+
+
+### Features
+
+* added bumper for app.json runtimeVersion ([b35a0d3](https://github.com/Torah-Anytime/standard-version-expo-channel/commit/b35a0d3bab48ed23ce86742d143b2d7cae9860f6))
+
+
+### Bug Fixes
+
+* allow extra whitespace at the end of the meta-data tag ([1100c9a](https://github.com/Torah-Anytime/standard-version-expo-channel/commit/1100c9a4084142defddc4c641ed8113f2627e966))
+
 ### [0.1.5](https://github.com/Torah-Anytime/standard-version-expo-channel/compare/v0.1.4...v0.1.5) (2021-09-15)
 
 ### [0.1.4](https://github.com/Torah-Anytime/standard-version-expo-channel/compare/v0.1.3...v0.1.4) (2021-09-15)
