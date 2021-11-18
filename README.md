@@ -26,6 +26,10 @@ module.exports = {
   bumpFiles: [
     // ...
     {
+      filename: "app.json",
+      updater: require("@torah-anytime/standard-version-expo/dist/expo/runtime-version"),
+    },
+    {
       filename: "ios/TorahAnyTime/Supporting/Expo.plist",
       updater: require("@torah-anytime/standard-version-expo/dist/ios/native/runtime-version"),
     },
